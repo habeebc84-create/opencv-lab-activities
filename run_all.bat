@@ -2,39 +2,39 @@
 cd /d "C:\Users\habee\OpenCV"
 set PY=C:\Users\habee\AppData\Local\Programs\Python\Python313\python.exe
 echo Running image-based lab activities...
-"%PY%" lab01_grayscale.py
-"%PY%" lab02_gaussian_blur.py
-"%PY%" lab03_canny_edges.py
-"%PY%" lab04_dilate.py
-"%PY%" lab05_erode.py
-"%PY%" lab08_scaling.py
-"%PY%" lab09_rotation.py
-"%PY%" lab10_move_window.py
-"%PY%" lab11_affine.py
-"%PY%" lab12_perspective.py
-"%PY%" lab14_homography.py
-"%PY%" lab16_canny.py
-"%PY%" lab17_sobel_x.py
-"%PY%" lab18_sobel_y.py
-"%PY%" lab19_sobel_xy.py
-"%PY%" lab20_laplacian_neg.py
-"%PY%" lab21_laplacian_diag.py
-"%PY%" lab22_laplacian_pos.py
-"%PY%" lab23_unsharp_pil.py
-"%PY%" lab24_highboost.py
-"%PY%" lab25_gradient_masking.py
-"%PY%" lab26_watermark.py
-"%PY%" lab27_crop_copypaste.py
-"%PY%" lab28_convolution_boundary.py
-"%PY%" lab29_erosion_morph.py
-"%PY%" lab30_dilation_morph.py
-"%PY%" lab31_opening.py
-"%PY%" lab32_closing.py
-"%PY%" lab33_morph_gradient.py
-"%PY%" lab34_tophat.py
-"%PY%" lab35_blackhat.py
-"%PY%" lab40_rectangle_extract.py
+"%PY%" Activity_01_Grayscale.py
+"%PY%" Activity_02_GaussianBlur.py
+"%PY%" Activity_03_CannyEdges.py
+"%PY%" Activity_04_Dilate.py
+"%PY%" Activity_05_Erode.py
+"%PY%" Activity_08_Scaling.py
+"%PY%" Activity_09_Rotation.py
+"%PY%" Activity_10_MoveWindow.py
+"%PY%" Activity_11_Affine.py
+"%PY%" Activity_12_Perspective.py
+"%PY%" Activity_14_Homography.py
+"%PY%" Activity_16_Canny.py
+"%PY%" Activity_17_SobelX.py
+"%PY%" Activity_18_SobelY.py
+"%PY%" Activity_19_SobelXY.py
+"%PY%" Activity_20_LaplacianNeg.py
+"%PY%" Activity_21_LaplacianDiag.py
+"%PY%" Activity_22_LaplacianPos.py
+"%PY%" Activity_23_UnsharpPIL.py
+"%PY%" Activity_24_HighBoost.py
+"%PY%" Activity_25_GradientMasking.py
+"%PY%" Activity_26_Watermark.py
+"%PY%" Activity_27_CropCopyPaste.py
+"%PY%" Activity_28_ConvolutionBoundary.py
+"%PY%" Activity_29_ErosionMorph.py
+"%PY%" Activity_30_DilationMorph.py
+"%PY%" Activity_31_Opening.py
+"%PY%" Activity_32_Closing.py
+"%PY%" Activity_33_MorphGradient.py
+"%PY%" Activity_34_TopHat.py
+"%PY%" Activity_35_BlackHat.py
+"%PY%" Activity_40_RectangleExtract.py
 echo.
-echo NOTE: lab06, lab07, lab13, lab37, lab38 need a video file or webcam.
+echo NOTE: Activity_06, 07, 13, 37, 38 need a video file or webcam.
 echo Done.
 pause
