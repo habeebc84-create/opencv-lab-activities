@@ -12,7 +12,7 @@ import numpy as np
 img = cv2.imread("C:\\Users\\habee\\OpenCV\\image1.jpg", 0)
 kernel = np.ones((3, 3), np.uint8)
 gradient = cv2.morphologyEx(img, cv2.MORPH_GRADIENT, kernel)
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\Morphological_Gradient.jpg", gradient)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_33_Morphological_Gradient.jpg", gradient)
 cv2.imshow('Morph Gradient', gradient)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

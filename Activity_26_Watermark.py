@@ -32,7 +32,7 @@ if bottom_y > h_img or right_x > w_img:
 destination = img[top_y:bottom_y, left_x:right_x]
 result = cv2.addWeighted(destination, 1, logo, 0.5, 0)
 img[top_y:bottom_y, left_x:right_x] = result
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\watermarked.jpg", img)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_26_watermarked.jpg", img)
 cv2.imshow("Watermarked Image", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

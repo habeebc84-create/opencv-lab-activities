@@ -13,7 +13,7 @@ img = cv2.imread("C:\\Users\\habee\\OpenCV\\image1.jpg")
 rows, cols = img.shape[:2]
 M = np.float32([[1, 0, 100], [0, 1, 50]])
 affine_img = cv2.warpAffine(img, M, (cols, rows))
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\Affine_Transformed.jpg", affine_img)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_11_Affine_Transformed.jpg", affine_img)
 cv2.imshow('Affine', affine_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

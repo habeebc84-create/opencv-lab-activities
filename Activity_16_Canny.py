@@ -11,7 +11,7 @@ import numpy as np
 
 img = cv2.imread("C:\\Users\\habee\\OpenCV\\image1.jpg", 0)
 edges = cv2.Canny(img, 100, 200)
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\Edges.jpg", edges)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_16_Edges.jpg", edges)
 cv2.imshow('Canny Edges', edges)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

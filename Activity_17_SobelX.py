@@ -11,7 +11,7 @@ import numpy as np
 
 img = cv2.imread("C:\\Users\\habee\\OpenCV\\image1.jpg", 0)
 sobel_x = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=5)
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\sobel_x.jpg", sobel_x)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_17_sobel_x.jpg", sobel_x)
 cv2.imshow('Sobel X', sobel_x)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

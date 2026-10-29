@@ -18,7 +18,7 @@ def high_boost_filter(image, boost_factor):
 
 image = cv2.imread("C:\\Users\\habee\\OpenCV\\image1.jpg")
 sharpened_image = high_boost_filter(image, 1.5)
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\sharpened_image.jpg", sharpened_image)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_24_sharpened_image.jpg", sharpened_image)
 cv2.imshow('HighBoost', sharpened_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

@@ -14,11 +14,11 @@ end_point = (200, 200)
 color = (0, 0, 255)
 thickness = 2
 rect_img = cv2.rectangle(img.copy(), start_point, end_point, color, thickness)
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\rect_image.jpg", rect_img)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_40_rect_image.jpg", rect_img)
 cv2.imshow('Image with Rectangle', rect_img)
 cv2.waitKey(0)
 obj_img = img[start_point[1]:end_point[1], start_point[0]:end_point[0]]
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\object.jpg", obj_img)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_40_object.jpg", obj_img)
 cv2.imshow('Extracted Object', obj_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

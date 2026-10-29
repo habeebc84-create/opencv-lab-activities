@@ -11,5 +11,5 @@ from PIL import Image, ImageFilter
 image_path = "C:\\Users\\habee\\OpenCV\\image1.jpg"
 im1 = Image.open(image_path)
 im2 = im1.filter(ImageFilter.UnsharpMask(radius=3, percent=200, threshold=5))
-im2.save("C:\\Users\\habee\\OpenCV\\unsharp_pil.jpg")
+im2.save("C:\\Users\\habee\\OpenCV\\Activity_23_unsharp_pil.jpg")
 im2.show()

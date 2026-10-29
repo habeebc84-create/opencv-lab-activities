@@ -11,7 +11,7 @@ import cv2
 # Cropping
 img = cv2.imread("C:\\Users\\habee\\OpenCV\\image1.jpg")
 crop_img = img[10:300, 10:300]
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\cropped.jpg", crop_img)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_27_cropped.jpg", crop_img)
 cv2.imshow("cropped", crop_img)
 cv2.waitKey(0)
 
@@ -27,7 +27,7 @@ img1_bg = cv2.bitwise_and(roi, roi, mask=mask_inv)
 img2_fg = cv2.bitwise_and(img2, img2, mask=mask)
 dst = cv2.add(img1_bg, img2_fg)
 img1[50:50+rows, 50:50+cols] = dst
-cv2.imwrite("C:\\Users\\habee\\OpenCV\\copy_paste.jpg", img1)
+cv2.imwrite("C:\\Users\\habee\\OpenCV\\Activity_27_copy_paste.jpg", img1)
 cv2.imshow('result', img1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
